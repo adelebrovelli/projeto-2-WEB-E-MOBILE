@@ -1,0 +1,43 @@
+html,
+body {
+    background: #FFFCEE;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    background: #752A2A;
+    height: 121px;
+    flex-shrink: 0;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+li {
+    
+    padding: 8px;
+    float: right;
+    padding-top: 45px;
+    padding-right: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.LOGO {
+    color: rgb(244, 236, 236);
+    padding: 8px;
+    float: left;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+div {
+    width: 700px;
+    margin: 190px auto 0;
+}
