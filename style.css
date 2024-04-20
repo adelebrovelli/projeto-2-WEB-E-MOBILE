@@ -1,79 +1,91 @@
 html,
 body {
-    font-family: Julius Sans One, Helvetica, Arial, Helvetica, sans-serif;
-    background: #FFFCEE;
-    margin: 0;
-    padding: 0;
+  font-family: Julius Sans One, Helvetica, Arial, Helvetica, sans-serif;
+  background: #fffcee;
+  margin: 0;
+  padding: 0;
 }
 
 @font-face {
-    font-family: Julius Sans One;
-src: url('JuliusSansOne-Regular.ttf') format('truetype');
+  font-family: Julius Sans One;
+  src: url("JuliusSansOne-Regular.ttf") format("truetype");
 }
 
-nav{
-    display: inline;
+nav {
+  display: inline;
 }
 
 ul {
-    background: #752A2A;
-    height: 121px;
-    flex-shrink: 0;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    font-size: 25px;
-    font-weight: 400;
+  background: #752a2a;
+  height: 121px;
+  flex-shrink: 0;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-size: 25px;
+  font-weight: 400;
 }
 
-li {  
-    padding: 8px;
-    float: right;
-    padding-top: 45px;
-    padding-right: 30px;
-    
+li {
+  padding: 8px;
+  float: right;
+  padding-top: 45px;
+  padding-right: 30px;
 }
-
 
 a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
-a:hover{
-    text-decoration: underline;
-    color: #fff;
+a:hover {
+  text-decoration: underline;
+  color: #fff;
 }
 
-.lista{
-    padding: 8px;
-    float: left;
-    padding-top: 40px;
-    padding-left: 30px;
+.lista {
+  padding: 8px;
+  float: left;
+  padding-top: 40px;
+  padding-left: 30px;
 }
-.logo1{
-    max-width: 315px;
-    max-height:65px;
-    margin-top: -16px;
+.logo1 {
+  max-width: 315px;
+  max-height: 65px;
+  margin-top: -16px;
 }
 
-.logo2{
-    
-    max-width: 650px;
-    margin-bottom: 70px;
+.logo2 {
+  max-width: 650px;
+  margin-bottom: 70px;
 }
 
 div {
-    width: 700px;
-    margin: 190px auto 0;
-    margin-bottom: 50px;
+  width: 700px;
+  margin: 190px auto 0;
+  margin-bottom: 50px;
 }
 
-footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  color: #fff;
+  background: #752a2a;
+}
+
+.dropdown-menu {
+  background: #752A2A;
+  max-width: 100px;
+  max-height: 139px;
+  flex-shrink: 0;
+}
+
+.dropdown-item{
     color: #fff;
-    background: #752A2A;
+}
+hr{
+    background-color: #fff;
+    width: 80%;
 }
