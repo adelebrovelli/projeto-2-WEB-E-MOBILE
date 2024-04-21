@@ -98,11 +98,18 @@ h2{
 
 }
 
+h2{
+  background: #752a2a;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+
+}
+
 .livros-hover:hover {
   text-decoration: underline;
   color: #752A2A;
 }
-
 
 .container {
   margin-top: -300px;
