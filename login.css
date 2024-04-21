@@ -62,15 +62,16 @@ a:hover{
     max-width: 650px;
     margin-bottom: 70px;
     margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 div {
     width: 700px;
     margin: 190px auto 0;
     margin-bottom: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+   
 }
 
 #login {
@@ -78,6 +79,15 @@ div {
     padding: 0 24px 500px;
     background-color: #752A2A;
 }
+
+.info {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+
 
 footer{
     display: flex;
