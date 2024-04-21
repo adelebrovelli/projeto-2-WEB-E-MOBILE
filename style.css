@@ -94,7 +94,7 @@ h2{
   background: #752a2a;
   color: #fff;
   margin: 0;
-  padding: 0;
+  padding: 10px;
 
 }
 
@@ -103,8 +103,18 @@ h2{
   color: #752A2A;
 }
 
-.container {
+.card {
   margin-top: -300px;
+  margin-block-end: auto;
+}
+
+.col-sm-3{
+  margin-right: 150px;
+}
+
+.btn{
+  background: #752a2a;
+  color: #fff;
 }
 
 .img-container img {
