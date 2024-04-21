@@ -93,11 +93,16 @@ div {
     gap: 80px;
 }
 
-input {
+.input {
     width: 70%;
     height: 24px;
 }
 
+#submit {
+    width: 15%;
+    height: 30px;
+    
+}
 
 footer{
     display: flex;
