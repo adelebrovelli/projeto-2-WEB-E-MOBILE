@@ -89,3 +89,8 @@ hr{
     background-color: #fff;
     width: 80%;
 }
+
+.livros-hover:hover {
+  text-decoration: underline; /* Sublinhar o texto ao passar o mouse */
+  color: #ab0909; /* Mudar a cor do texto ao passar o mouse */
+}
