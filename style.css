@@ -101,7 +101,7 @@ h2{
 
 .livros-hover:hover {
   text-decoration: underline;
-  color: #752A2A;
+  color: #ffee00;
 }
 
 .card {
@@ -114,7 +114,7 @@ h2{
 }
 
 .btn{
-  background: #ffe600;
+  background: #752a2a;
   color: #fff;
 }
 
