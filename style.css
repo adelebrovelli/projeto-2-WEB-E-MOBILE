@@ -106,7 +106,13 @@ h2{
 
 .card {
   margin-top: -300px;
-  margin-block-end: auto;
+  margin-block-end: 100px;
+  padding: 10px;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
 }
 
 .col-sm-3{
@@ -132,3 +138,4 @@ h2{
   font-size: 25px;
   font-weight: 400;
 }
+
