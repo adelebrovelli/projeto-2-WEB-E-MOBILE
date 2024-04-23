@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>EducaLivros - Avaliações</title>
+    
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="lista"> <img class="logo1" src="Group 5.png" alt="logo branca, livro e ao lado escrito 'EducaLivros'"> </li>
+            <li> <a href="login.html"> login </a> </li>
+            <li> <a href="cursocrianca.html">Cursos Infantis</a> </li>
+            <li> <a href="cursoadolescente.html">Cursos para Adolescentes</a> </li>
+            <li> <a href="#ecommerce"> e-commerce </a> </li>
+            <li> <a href="#biblioteca" class="dropdown" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"> biblioteca </a> 
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="bibliotecaAluga.html">Aluguel</a>
+                    <hr>
+                    <a class="dropdown-item" href="bibliotecaVenda.html">Venda</a>
+                </div>
+            </li>
+            <li> <a href="#home"> home </a> </li>
+        </ul>
+    </nav>
+
+    <div>
+        <img class="logo2" src="Group 6.png" alt="Logo EducaLivros">
+        <h2>Avaliações de Clientes</h2>
+
+        <div class="review">
+            <h3>Excelente serviço!</h3>
+            <p>Adorei a facilidade de alugar livros na EducaLivros. A entrega foi rápida e os livros estavam em perfeito estado.</p>
+            <p class="reviewer-info">- Maria Silva, São Paulo</p>
+            <div class="rating">
+                <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+            </div>
+        </div>
+
+        <div class="review">
+            <h3>Curso maravilhoso!</h3>
+            <p>Meu filho participou do curso de alfabetização e leitura e teve uma experiência incrível. Os professores são atenciosos e o material didático é excelente.</p>
+            <p class="reviewer-info">- João Oliveira, Rio de Janeiro</p>
+            <div class="rating">
+                <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+            </div>
+        </div>
+
+        <div class="review">
+            <h3>Recomendo muito!</h3>
+            <p>Comprei vários livros para minha biblioteca pessoal na EducaLivros e fiquei muito satisfeito com a qualidade e a variedade de títulos disponíveis.</p>
+            <p class="reviewer-info">- Ana Santos, Brasília</p>
+            <div class="rating">
+                <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+            </div>
+        </div>
+
+        <h2>Adicionar Avaliação</h2>
+
+        <div class="add-review review">
+            <form>
+                <div class="form-group">
+                    <label for="title">Título do Livro ou Curso:</label>
+                    <input type="text" class="form-control" id="title" name="title" required>
+                </div>
+                <div class="form-group">
+                    <label for="name">Nome:</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="city">Cidade:</label>
+                    <input type="text" class="form-control" id="city" name="city" required>
+                </div>
+                <div class="form-group">
+                    <label for="rating">Avaliação:</label>
+                    <div class="rating">
+                        <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="comment">Comentário:</label>
+                    <textarea class="form-control" id="comment" name="comment" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar Avaliação</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        &copy; <a href="easteregg.html" class="livros-hover">EducaLivros</a> - Todos os direitos reservados
+    </footer>
+
+    <script>
+        const stars = document.querySelectorAll('.add-review .rating span');
+        stars.forEach(star => {
+            star.addEventListener('click', () => {
+                stars.forEach(s => s.classList.remove('selected'));
+                star.classList.add('selected');
+            });
+        });
+    </script>
+</body>
+
+</html>
