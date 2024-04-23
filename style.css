@@ -101,17 +101,17 @@ h2{
 
 .livros-hover:hover {
   text-decoration: underline;
-  color: #752A2A;
+  color: #96cc19;
 }
-
+.container{
+  margin-top: -200px;
+}
 .card {
-  margin-top: -300px;
-  margin-block-end: 100px;
-  padding: 10px;
+  margin:auto;
 }
 
 .card img {
-  max-width: 100%;
+  max-width: auto;
   height: auto;
 }
 
