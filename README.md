@@ -1,11 +1,48 @@
 # projeto-2-WEB-E-MOBILE
-Projeto 2 - Programação WEB e Mobile
+# Projeto 2 - Programação WEB e Mobile
+
 Professor: Lucas Farias
 Alun@s: Adele Brovelli
         Gustavo Lima
         Renata Bezerra
         Maria Vitória Paiva
 
+# EducaLivros
+
+Este é o projeto EducaLivros, um site com um design simples e minimalista, acessível e fácil de navegar através do menu.
+
+## Descrição
+
+Desenvolvemos um projeto com um design simples e minimalista, mas acessível e fácil de navegar através do menu. Na homepage do EducaLivros, é possível encontrar a filosofia da empresa, bem como navegar para uma aba onde o usuário encontra avaliações dos nossos serviços. Implementamos um menu dropdown para acesso à biblioteca, onde o usuário pode escolher alugar ou comprar os livros do acervo.
+
+## Funcionalidades
+
+- *Homepage:*
+  - Apresenta a filosofia da empresa.
+  - Acesso a avaliações dos serviços.
+- *Biblioteca:*
+  - Menu dropdown para alugar ou comprar livros.
+- *Ecommerce:*
+  - Oferece outros produtos como cursos para adolescentes e crianças, camisetas e garrafas.
+  - Cursos separados por faixa etária (adolescentes e crianças) com 3 cursos para cada.
+- *Login:*
+  - Permite ao usuário entrar em sua conta pessoal.
+- *Avaliação/Review:*
+  - Permite ao usuário encontrar avaliações de uso da plataforma e também avaliar.
+
+## Tecnologias Utilizadas
+
+O projeto foi desenvolvido utilizando:
+- HTML
+- CSS
+- Bootstrap
+- Alguns scripts JavaScript para facilitar o desenvolvimento de um site responsivo e de fácil navegação.
+
+## Easter Egg
+
+O site possui um easter egg, um segredo que deve ser descoberto navegando pelo site! ;)
+**O segredo em questão: Se ao clicar no "@EducaLivros" no fim da página, pode perceber uma alteração de cor pelo _styling "hover"_ que, ao clicar, leva para uma página secreta que oferece um cupom de desconto.
+_____________________________________________________________________
 Alguns _screenshots_ da interface de usuário:
 ![image](https://github.com/adelebrovelli/projeto-2-WEB-E-MOBILE/assets/101191931/2193e214-1a61-4ed0-88c0-122880710020)
 ![image](https://github.com/adelebrovelli/projeto-2-WEB-E-MOBILE/assets/101191931/88bb3b51-61a6-4725-af99-9759b3627d1e)
