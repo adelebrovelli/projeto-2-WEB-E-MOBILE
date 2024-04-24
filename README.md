@@ -43,7 +43,10 @@ O projeto foi desenvolvido utilizando:
 O site possui um easter egg, um segredo que deve ser descoberto navegando pelo site! ;)
 **O segredo em questão: Se ao clicar em "@EducaLivros" no fim da página, pode perceber uma alteração de cor pelo _styling "hover"_ que, ao clicar, leva para uma página secreta que oferece um cupom de desconto.
 _____________________________________________________________________
+
 Alguns _screenshots_ da interface de usuário:
+
+OBSERVAÇÃO: Alguns _screenshots_ foram tirados com redefinição de _zoom_ da página com objetivo de mostrar o projeto em si. Portanto, ao acessar, sua visualização será minimamente diferente.
 ![image](https://github.com/adelebrovelli/projeto-2-WEB-E-MOBILE/assets/101191931/2193e214-1a61-4ed0-88c0-122880710020)
 ![image](https://github.com/adelebrovelli/projeto-2-WEB-E-MOBILE/assets/101191931/88bb3b51-61a6-4725-af99-9759b3627d1e)
 ![image](https://github.com/adelebrovelli/projeto-2-WEB-E-MOBILE/assets/101191931/16a63fa8-f9a3-440c-af0f-bec893746ad7)
