@@ -1,11 +1,11 @@
 # Projeto 2 - Programação WEB e Mobile
 
 Professor: Lucas Farias
-Alun@s:
-- Adele Brovelli
-- Gustavo Lima
-- Renata Bezerra
-- Maria Vitória Paiva
+- Alun@s:
+  - Adele Brovelli
+  - Gustavo Lima
+  - Renata Bezerra
+  - Maria Vitória Paiva
 
 # EducaLivros
 
