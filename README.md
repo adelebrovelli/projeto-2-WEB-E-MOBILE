@@ -81,3 +81,5 @@ _______________________________________________________________________
 Junte-se a nós na busca pela igualdade de acesso à educação! :)
 
 Por fim, uma amostra das funcionalidades e navegação do site.
+
+[pitchEducaLivros.pdf](https://github.com/adelebrovelli/projeto-2-WEB-E-MOBILE/files/15199317/pitchEducaLivros.pdf)
