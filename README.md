@@ -81,5 +81,5 @@ _______________________________________________________________________
 Junte-se a nós na busca pela igualdade de acesso à educação! :)
 
 Por fim, uma amostra das funcionalidades e navegação do site.
-
+EASTER EGG 2: Ao enviar uma avaliação o cliente recebe frete grátis em sua próxima compra.
 [pitchEducaLivros.pdf](https://github.com/adelebrovelli/projeto-2-WEB-E-MOBILE/files/15199317/pitchEducaLivros.pdf)
