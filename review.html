@@ -12,7 +12,11 @@
 
 
 <body>
-
+    <script>
+        function showAlert(){
+            alert("Obrigada pela avaliação! Você ganhou 15% de desconto em todos os itens!")
+        }
+        </script>
    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
@@ -89,7 +93,7 @@
                     <label for="comment">Comentário:</label>
                     <textarea class="form-control" id="comment" name="comment" rows="3" required></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary">Enviar Avaliação</button>
+                <button type="submit" onclick="showAlert()" value="exibir" class="btn btn-primary">Enviar Avaliação</button>
             </form>
         </div>
     </div>
@@ -100,12 +104,20 @@
 
     <script>
         const stars = document.querySelectorAll('.add-review .rating span');
-        stars.forEach(star => {
-            star.addEventListener('click', () => {
-                stars.forEach(s => s.classList.remove('selected'));
-                star.classList.add('selected');
-            });
-        });
+
+stars.forEach((star, index) => {
+    star.addEventListener('click', () => {
+        // Adiciona a classe 'selected' para todas as estrelas até a estrela clicada
+        for (let i = 0; i <= index; i++) {
+            stars[i].classList.add('selected');
+        }
+        // Remove a classe 'selected' para todas as estrelas após a estrela clicada
+        for (let i = index + 1; i < stars.length; i++) {
+            stars[i].classList.remove('selected');
+        }
+    });
+});
+
     </script>
 </body>
 
