@@ -57,3 +57,27 @@ OBSERVAÇÃO: Alguns _screenshots_ foram tirados com redefinição de _zoom_ da 
 ![image](https://github.com/adelebrovelli/projeto-2-WEB-E-MOBILE/assets/101191931/aedd0679-ceb0-44e4-8d2d-1acd3a99246d)
 ![image](https://github.com/adelebrovelli/projeto-2-WEB-E-MOBILE/assets/101191931/62c579f2-c754-4a5b-b51c-37df8f5b240e)
 ![image](https://github.com/adelebrovelli/projeto-2-WEB-E-MOBILE/assets/101191931/8096c650-276a-4df0-a1ff-117ac233f6e7)
+
+_______________________________________________________________________
+
+#Parte 3: PITCH
+
+1. Inicialmente tratamos de mostrar os ideais e missões do nosso projeto: Empoderar escolas em comunidades carentes que sofrem com falta de recursos de qualidade através de uma solução simples e tecnológica, gerando igualdade de acesso para todos estudantes.
+2. Apresentamos problemas que podem ser solucionados utilizando nosso projeto:
+- Escolas e bibliotecas comunitárias com pouco acervo
+- Estudantes que não conseguem estar presencialmente na escola
+- Escolas com dificuldade adquirir títulos acadêmicos
+3. As soluções: 
+- Plataforma completa web e mobile
+- Acervo completo que pode ser comprado ou alugado gratuitamente
+- Oferta de cursos na área de interesse solicitada pela escola
+- Ecommerce customizável para venda de produtos da comunidade
+4. O público alvo do projeto:
+- Ministério da educação
+- Secretarias de educação estaduais
+- Secretarias de educação municipais
+- ONGs de educação locais
+
+Junte-se a nós na busca pela igualdade de acesso à educação! :)
+
+Por fim, uma amostra das funcionalidades e navegação do site.
